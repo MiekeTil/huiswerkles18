@@ -1,0 +1,138 @@
+body {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "Comfortaa", sans-serif;
+  margin: 0px;
+}
+header {
+  font-family: "Agbalumo", cursive;
+  width: 100%;
+  height: 20%;
+  font-size: 30px;
+  padding: 10px;
+  color: #ff0000;
+  background-image: url("../images/amsterdam_houses.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+.feitjes {
+  font-size: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.musea-info {
+  font-size: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e2e2e2;
+}
+h2,
+h3,
+h4 {
+  font-size: 15px;
+}
+h4 {
+  border-style: dashed;
+  border-color: #ff0000;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 6px;
+}
+a:link {
+  color: #ff0000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff0000;
+}
+img {
+  float: right;
+  width: 25%;
+  height: auto;
+  max-width: 100%;
+  margin: 5px;
+}
+.grayscale {
+  filter: grayscale(100%);
+}
+ul {
+  list-style-image: url(../images/amsterdam_cross.png);
+}
+footer {
+  width: 100%;
+  height: 10%;
+  padding: 10px;
+  font-size: 8px;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+[class*="col-"] {
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  header {
+    font-size: 60px;
+  }
+  h2,
+  h3,
+  h4 {
+    font-size: 20px;
+  }
+  .feitjes {
+    font-size: 15px;
+  }
+  .musea-info {
+    font-size: 15px;
+  }
+}
